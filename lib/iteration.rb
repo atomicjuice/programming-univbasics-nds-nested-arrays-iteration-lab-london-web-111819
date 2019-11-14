@@ -86,7 +86,7 @@ def total_even_pairs(src)
 
 row = 0
   ele = 1
-  # total = []
+   total = 0
   while row < src.count
   int1 = src[row][row]
   int2 = src[row][ele]
@@ -96,6 +96,6 @@ row = 0
   row += 1
   ele += 1
   end
- total [0]
+ total 
 
 end
