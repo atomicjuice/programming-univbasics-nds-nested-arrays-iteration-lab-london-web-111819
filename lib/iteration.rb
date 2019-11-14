@@ -96,6 +96,6 @@ row = 0
   row += 1
   ele += 1
   end
- total 
+ total
 
 end
