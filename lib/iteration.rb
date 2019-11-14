@@ -1,5 +1,5 @@
 
-require "pry"
+# require "pry"
 
 def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
@@ -94,7 +94,6 @@ row = 0
   total += (int1 + int2)
 
   end
-  binding.pry
   row += 1
   ele += 1
   end
