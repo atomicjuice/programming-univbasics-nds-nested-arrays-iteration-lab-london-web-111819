@@ -90,7 +90,7 @@ row = 0
   while row < src.count
   int1 = src[row][row]
   int2 = src[row][ele]
-  if (src[row][0] % == 0) && (src[row][1] % 2 == 0)
+  if (src[row][0] % 2 == 0) && (src[row][1] % 2 == 0)
   total << int1 + int2
   end
   row += 1
