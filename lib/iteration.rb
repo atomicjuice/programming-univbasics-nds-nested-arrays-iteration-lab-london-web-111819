@@ -93,7 +93,7 @@ row = 0
   int1 = src[row][row]
   int2 = src[row][ele]
   if (src[row][0] % 2 == 0) && (src[row][1] % 2 == 0)
-  total += (src[row][row] + src[row][ele])
+  total += (src[row][0] + src[row][1])
 
   end
   row += 1
